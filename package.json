@@ -1,0 +1,19 @@
+{
+	"name": "lobby",
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"watch": "tsc -w",
+		"build": "tsc",
+		"start": "node dist/bootstrapper.js"
+	},
+	"author": "romdotdog",
+	"license": "UNLICENSED",
+	"devDependencies": {
+		"@types/node": "^20.14.9",
+		"typescript": "^5.5.3"
+	},
+	"dependencies": {
+		"@roamhq/wrtc": "^0.8.0"
+	}
+}
